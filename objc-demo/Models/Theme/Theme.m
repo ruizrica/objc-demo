@@ -27,7 +27,7 @@
     UILabel *title = [[UILabel alloc]initWithFrame:CGRectMake(titleOffset, titleOffset+5, kScreenWidth-titleOffset, 40)];
     title.font = kFont_BoldItalic_WSize(24);
     title.textColor = [UIColor whiteColor];
-    title.text = @"iOS Coding Challenge";
+    title.text = @"Objective-C Demo";
     [header addSubview:title];
     
     UILabel *author = [[UILabel alloc]initWithFrame:CGRectMake(titleOffset, titleOffset+30, kScreenWidth-titleOffset, 40)];
