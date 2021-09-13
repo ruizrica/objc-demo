@@ -32,6 +32,16 @@
 		CA8C7D6426EF9D710008B63F /* MealsCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D2E26EF9A430008B63F /* MealsCell.xib */; };
 		CA8C7D6526EF9D710008B63F /* MealsCell.h in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D2F26EF9A430008B63F /* MealsCell.h */; };
 		CA8C7D6626EF9D710008B63F /* MealsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D3026EF9A430008B63F /* MealsCell.m */; };
+		CA8C7D6726EFAA3E0008B63F /* Constants.h in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D0626EF9A240008B63F /* Constants.h */; };
+		CA8C7D6826EFAA3E0008B63F /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D0726EF9A240008B63F /* Constants.m */; };
+		CA8C7D6926EFAA3E0008B63F /* API.h in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D5526EF9D320008B63F /* API.h */; };
+		CA8C7D6A26EFAA3E0008B63F /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D5426EF9D320008B63F /* API.m */; };
+		CA8C7D6B26EFAA3E0008B63F /* Meal.h in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D5126EF9D320008B63F /* Meal.h */; };
+		CA8C7D6C26EFAA3E0008B63F /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D5226EF9D320008B63F /* Meal.m */; };
+		CA8C7D6D26EFAA3E0008B63F /* MealCategory.h in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D4826EF9D320008B63F /* MealCategory.h */; };
+		CA8C7D6E26EFAA3E0008B63F /* MealCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D4926EF9D320008B63F /* MealCategory.m */; };
+		CA8C7D6F26EFAA3E0008B63F /* MealRecipe.h in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D4B26EF9D320008B63F /* MealRecipe.h */; };
+		CA8C7D7026EFAA3E0008B63F /* MealRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C7D4C26EF9D320008B63F /* MealRecipe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -416,6 +426,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8C7D6726EFAA3E0008B63F /* Constants.h in Sources */,
+				CA8C7D6826EFAA3E0008B63F /* Constants.m in Sources */,
+				CA8C7D6926EFAA3E0008B63F /* API.h in Sources */,
+				CA8C7D6A26EFAA3E0008B63F /* API.m in Sources */,
+				CA8C7D6B26EFAA3E0008B63F /* Meal.h in Sources */,
+				CA8C7D6C26EFAA3E0008B63F /* Meal.m in Sources */,
+				CA8C7D6D26EFAA3E0008B63F /* MealCategory.h in Sources */,
+				CA8C7D6E26EFAA3E0008B63F /* MealCategory.m in Sources */,
+				CA8C7D6F26EFAA3E0008B63F /* MealRecipe.h in Sources */,
+				CA8C7D7026EFAA3E0008B63F /* MealRecipe.m in Sources */,
 				CA8C7CEC26EF99F00008B63F /* objc_demoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
