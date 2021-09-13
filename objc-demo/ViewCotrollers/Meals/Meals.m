@@ -100,6 +100,7 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 
     @try {
+        __weak Meals *weakSelf = self;
         Meal *meal = [self.currentCollection objectAtIndex:indexPath.row];
         [API loadMeal:meal.idMeal withHandler:^(NSDictionary * _Nonnull result) {
             MealRecipe *recipe = result[@"recipe"];
@@ -107,7 +108,7 @@
                 Recipe *recipeView = [[Recipe alloc]init];
                 recipeView.recipe = recipe;
                 recipeView.modalPresentationStyle = UIModalPresentationFormSheet;
-                [self presentViewController:recipeView animated:YES completion:nil];
+                [weakSelf presentViewController:recipeView animated:YES completion:nil];
             });
         }];
     } @catch (NSException *exception) {

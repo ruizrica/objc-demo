@@ -115,12 +115,13 @@
         [API loadMeals:category.strCategory withHandler:^(NSDictionary * _Nonnull result) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 
+                __weak Main *weakSelf = self;
                 NSArray *mealObjects = result[@"objects"];
                 Meals *meals = [[Meals alloc]init];
                 meals.textTitle = category.strCategory;
                 meals.currentCollection = mealObjects;
                 meals.modalPresentationStyle = UIModalPresentationFormSheet;
-                [self presentViewController:meals animated:YES completion:nil];
+                [weakSelf presentViewController:meals animated:YES completion:nil];
             });
         }];
         NSLog(@"Selected: %@",category.strCategory);
